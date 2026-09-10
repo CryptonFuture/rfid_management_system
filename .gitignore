@@ -15,6 +15,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+rfid_python-simulator/.env
 
 # OS
 .DS_Store
