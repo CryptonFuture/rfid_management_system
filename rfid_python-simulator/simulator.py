@@ -296,7 +296,7 @@ def root():
 # Health Check
 # ============================================================
 
-@app.get("/health")
+@app.get("/")
 def health():
 
     return {
