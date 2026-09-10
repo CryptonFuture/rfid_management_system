@@ -42,7 +42,7 @@ from pydantic import BaseModel
 # Configuration
 # ============================================================
 
-API_BASE = "http://localhost:5000/api"
+API_BASE = "https://rfidbackend-one.vercel.app/"
 SCAN_ENDPOINT = f"{API_BASE}/rfid/scan"
 
 DEFAULT_READER_ID = "PYTHON-SIM"
