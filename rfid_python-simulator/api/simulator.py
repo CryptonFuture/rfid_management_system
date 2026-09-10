@@ -25,7 +25,7 @@ API:
     POST /scan/unknown
 """
 
-
+import os
 import requests
 import random
 import time
@@ -42,7 +42,7 @@ from pydantic import BaseModel
 # Configuration
 # ============================================================
 
-API_BASE = import os
+
 
 API_BASE = os.getenv(
     "BACKEND_URL",
