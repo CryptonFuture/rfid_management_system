@@ -6,9 +6,11 @@ node_modules/
 .env
 backend/.env
 
+
 # Build
 frontend/dist/
 frontend/build/
+rfid_frontend/.env
 
 # Python
 __pycache__/
